@@ -1,6 +1,6 @@
 # project-5.1-Biscoito-da-sorte
 
-== PROJETO EXTRA QUE PEGA FRASES ALEATÓRIAS E EXIBE NA TELA ==
+== PROJETO EXTRA QUE PEGA FRASES ALEATÓRIAS E AS EXIBEM NA TELA ==
 
 FIRST SCREEN: 
 ![image](https://github.com/iguuh/project-5.1-Biscoito-da-sorte/assets/86696913/15b0f10d-ad99-4365-8c37-c4c96fdd591b)
