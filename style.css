@@ -19,11 +19,13 @@
 }
 
 main {
-    background:linear-gradient(45deg, var(--bc-mainOne)0%, var(--bc-mainTwo) 100%);
+    background:linear-gradient(45deg, var(--bc-mainOne), var(--bc-mainTwo));
     display: grid;
     place-items: center;
     height: 100vh;
-  
+    
+    background-size: 100% 300%;
+	animation: backgroundMove 5s ease infinite;
 }
 
 
@@ -130,12 +132,25 @@ main {
 
 /* ANIMAÇÕES DÁ PAGINA */
 
+
 #inputImg:hover {
     animation: imageShake 0.82s cubic-bezier(.36,.07,.19,.97) infinite;
     transform: translate3d(0,0,0);
     backface-visibility: hidden;
     perspective: 100rem;
 
+}
+
+@keyframes backgroundMove {
+    0% {
+        background-position: 0% 30%;
+    }
+    60% {
+        background-position: 100% 60%;
+    }
+    100%{
+        background-position: 0% 30%;
+    }
 }
 
 @keyframes imageShake {
@@ -170,4 +185,3 @@ main {
       }
   }
 
-  
